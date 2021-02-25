@@ -38,7 +38,7 @@ authRouter.get('/:model/:id', bearerAuth, permissions('read'), handleGetOne);
 authRouter.post('/:model', bearerAuth, permissions('create'), handleCreate);
 authRouter.put('/:model/:id', bearerAuth, permissions('update'), handleUpdate);
 authRouter.patch('/:model/:id', bearerAuth, permissions('update'), handleUpdate);
-authRouter.delete('/:model/:id', bearerAuth, permissions('read'), handleDelete);
+authRouter.delete('/:model/:id', bearerAuth, permissions('delete'), handleDelete);
 
 
 

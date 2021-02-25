@@ -1,7 +1,7 @@
 'use strict';
 
-require('dotenv').config()
-process.env.SECRET = process.env.SECRET;
+
+process.env.SECRET = 'Scooby';
 
 require('@code-fellows/supergoose');
 const middleware = require('../src/auth/middleware/bearer.js');
