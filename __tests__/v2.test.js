@@ -1,8 +1,6 @@
 'use strict';
 
 const supergoose = require('@code-fellows/supergoose');
-const { response } = require('express');
-const supertest = require ('supertest');
 const server = require('../src/server.js');
 const request = supergoose(server.server);
 

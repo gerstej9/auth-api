@@ -1,7 +1,6 @@
 'use strict';
 
 require('dotenv').config()
-process.env.SECRET = process.env.SECRET;
 
 const server = require('../src/server.js').server;
 const supergoose = require('@code-fellows/supergoose');
