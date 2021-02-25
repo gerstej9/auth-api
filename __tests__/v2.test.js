@@ -4,6 +4,8 @@ const supergoose = require('@code-fellows/supergoose');
 const server = require('../src/server.js');
 const request = supergoose(server.server);
 
+process.env.SECRET = 'Scooby';
+
 
 
 describe('testing server for food v2 routes', () =>{
